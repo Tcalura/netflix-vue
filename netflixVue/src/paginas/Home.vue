@@ -1,14 +1,14 @@
 <template>
   <div class="contain">
-    <categoria v-for="categoria in categorias" v-bind:key="categoria.id" v-bind:titulo="categoria.titulo" v-bind:filmes="categoria.filmes"> </categoria>
-    
+    <categoria v-for="categoria in categorias" v-bind:key="categoria.id" v-bind:titulo="categoria.titulo" v-bind:filmes="categoria.filmes"></categoria>
   </div>
 
 </template>
 
 <script>
-// import teste from './componentes/teste.vue'
-import Categoria from '../componentes/Categoria.vue'
+
+//import testeGui from './componentes/teste.vue';
+import Categoria from '../componentes/Categoria.vue';
 
 export default {
   name: 'app',
@@ -30,9 +30,10 @@ export default {
     return {
       nomeProjeto: 'Netflix com Vue',
       intervalo:null,
-      categorias: []
+      categorias:[]
     }
   }
+
 }
 </script>
 

@@ -1,17 +1,16 @@
 <template>
-  <div>
-    <h1> {{ titulo }} </h1>
-  </div>
+  <h1>{{titulo}}</h1>
+
 </template>
 
 <script>
-  export default{
-    props: ['titulo'] 
-  }
+export default{  
+  props:['titulo']
+}
+
 </script>
 
 <style lang="scss">
-
 h1{
   color: red;
 }
