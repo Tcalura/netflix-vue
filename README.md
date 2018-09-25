@@ -4,21 +4,21 @@
 
 ----
 ## Segue comandos
-para executar localmente o projeto
+Para executar localmente o projeto
 
-** Instalar o json-server **
+##### Instalar o json-server **
 
     $ npm install -g json-server
 
-** Em um terminal dedicado ao json-server dentro da pasta do projeto execute ** 
+##### Em um terminal dedicado ao json-server dentro da pasta do projeto execute ** 
 
     $ json-server --watch db.json
 
-** instalar dependências ** 
+##### Instalar dependências ** 
  
     $ npm install
 
-** servidor disponível em localhost:8080 ** 
+##### Servidor disponível em localhost:8080 ** 
 
     $ npm run dev
  
