@@ -1,6 +1,6 @@
-# Olá essa não é uma réplica do do Netflix (ainda :D).
+# Olá essa não é uma réplica da Netflix (ainda :D).
 
-> Na verdade é apenas uma parte da exibição em miniatura dos filmes, que foi desenvolvido com Vuejs.
+> Na verdade, é apenas uma parte da exibição em miniatura dos filmes, que foi desenvolvido com Vuejs.
 
 ----
 ## Segue comandos
